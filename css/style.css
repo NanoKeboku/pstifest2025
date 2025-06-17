@@ -3673,13 +3673,13 @@ button:hover {
 
   .timeline-item .timeline-content {
     text-align: left !important;
-    margin-left: var(--spacing-lg) !important;
-    margin-right: 0 !important;
+    left: 60px;
+    position: relative;
   }
 
   .timeline-date {
-    position: absolute;
-    left: 0;
+    position: relative;
+    left: 20px;
     min-width: 80px;
   }
 
@@ -5401,7 +5401,7 @@ button:hover {
 
   .timeline-date {
     position: absolute;
-    left: 0;
+    left: 20px;
     min-width: 80px;
   }
 
